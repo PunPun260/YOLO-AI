@@ -5,18 +5,29 @@ So, How do where does the AI learn the data. That’s right you need to train it
 
 **Prepare (linux) :** 
 1. first you gotta ***create the environment and get the libary***
-	1. create the directory; 
-	   `$ mkdir yolo` # anyname u want
-	   `$ cd yolo`
-	2. create the environment;
-	   `$ python3 -m venv --system-site-package yolo_venv`
-	3. get into the environment;
-	   `$ source yolo_venv/bin/activate`
-	4. get the library;
-	   `(yolo_venv)$ pip install ultralytics ncnn`
+
+1.1 create the directory; 
+```
+$ mkdir yolo                  # anyname u want
+$ cd yolo
+```
+1.2 create the environment;
+```
+$ python3 -m venv --system-site-package yolo_venv
+```
+1.3 get into the environment;
+```
+$ source yolo_venv/bin/activate
+```
+1.4 get the library;
+```
+(yolo_venv)$ pip install ultralytics ncnn
+```
+    
 2. Next we gotta label the data:
    <<< up coming >>>
-3. Now u r ready!!
+   
+4. Now u r ready!!
 
 ***
 
