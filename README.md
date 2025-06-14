@@ -48,9 +48,11 @@ results = model.train(data="<yaml file address>", epochs=100, imgsz=640)
 epochs = how many times our model train
 
 2. next run it;
-`(yolo_venv)$ pyhton train.py`
+```
+(yolo_venv)$ pyhton train.py
+```
 
-3. now at the end it'll look like there’re some address. Congratulation!!, that’s your final model.
+4. now at the end it'll look like there’re some address. Congratulation!!, that’s your final model.
 
 ***
 
@@ -89,6 +91,8 @@ cv2.destroyAllWindows()
 ```
 
 2. next run it;
-`(yolo_venv)$ pyhton test.py`
+```
+(yolo_venv)$ pyhton test.py
+```
 
-3. Congratulation, now u can enjoy with your AI :)
+4. Congratulation, now u can enjoy with your AI :)
