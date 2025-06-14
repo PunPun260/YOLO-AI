@@ -1,6 +1,7 @@
 # YOLO 001 : Training
 
-YOLO is a python library that run AI model that are *for processing the image*. so How do where does the AI learn the data. That’s right you need to train it !!!
+YOLO is a python library that run AI model that are *for processing the image*. 
+So, How do where does the AI learn the data. That’s right you need to train it !!!
 
 **Prepare (linux) :** 
 1. first you gotta ***create the environment and get the libary***
@@ -9,7 +10,7 @@ YOLO is a python library that run AI model that are *for processing the image*. 
 	   `$ cd yolo`
 	2. create the environment;
 	   `$ python3 -m venv --system-site-package yolo_venv`
-	3. get into the environment:
+	3. get into the environment;
 	   `$ source yolo_venv/bin/activate`
 	4. get the library;
 	   `(yolo_venv)$ pip install ultralytics ncnn`
