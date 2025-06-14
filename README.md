@@ -1,9 +1,3 @@
----
-tags:
-  - AI
-  - Code
-  - 04-Notes
----
 # YOLO 001 : Training
 
 YOLO is a python library that run AI model that are *for processing the image*. so How do where does the AI learn the data. That’s right you need to train it !!!
